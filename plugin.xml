@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    id="cordova-sd-url-cache"
+    version="0.0.1">
+    
+    <name>CordovaSdUrlCache</name>
+    
+    <description>Cordova Sd Url Cache Plugin</description>
+    
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    
+    <!-- ios -->
+    <platform name="ios">        
+        <config-file target="config.xml" parent="/*">
+            <feature name="CordovaSdUrlCache">
+                <param name="onload" value="true"/>
+            </feature>
+        </config-file>
+        
+        <header-file src="src/ios/CordovaSdUrlCache.h" />
+        <source-file src="src/ios/CordovaSdUrlCache.m" />
+    </platform>
+</plugin>
