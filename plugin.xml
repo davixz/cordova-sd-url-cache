@@ -21,5 +21,9 @@
         
         <header-file src="src/ios/CordovaSdUrlCache.h" />
         <source-file src="src/ios/CordovaSdUrlCache.m" />
+        <header-file src="src/ios/SDCachedURLResponse.h" />
+        <source-file src="src/ios/SDCachedURLResponse.m" />
+        <header-file src="src/ios/SDURLCache.h" />
+        <source-file src="src/ios/SDURLCache.m" />
     </platform>
 </plugin>

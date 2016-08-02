@@ -7,7 +7,7 @@
 //
 
 #import "CordovaSdUrlCache.h"
-#import "SDURLCache.h"
+#import "SDURLCache.m"
 
 @implementation CordovaSdUrlCache
 
